@@ -1,0 +1,172 @@
+.wrapper{
+  display: "flex";
+  flex-direction: "column"
+}
+.viedo{
+    margin-left: 34%;
+}
+.movie-container{
+    height: 'auto';
+    left: '0';
+     width: '32%';
+      z-index: 2;
+       margin-left: '33%'; 
+       margin-top: '9%'
+}
+#con-select{
+  color: white;
+   width: 24%;
+    background-color: #ff4b2b;
+     margin-left: 57%;
+      border-radius: 20px;
+}
+.retrieve-form{
+    background: rgb(246, 245, 247) none repeat scroll 0% 0%;
+    width: max-content;
+    margin-top: inherit;
+    margin-left: -50%;
+}
+.pick-ceats{
+  background-color: #ff4b2b;
+   color: white;
+    width: 29%;
+     margin-left: 71%;
+      border-radius: 20px;
+}
+#retrieve-card{
+  padding: 80px; 
+  margin-left: -28%;
+}
+.ceat-pick{
+  width: 100%;
+  margin-left: -2%;
+}
+.ticket-booking{
+    height: 'auto';
+     left: '0';
+      width: '32%';
+       z-index: 2; 
+       margin-left: '33%';
+        margin-top: '9%';
+}
+@media only screen and (max-width: 600px) {
+  .viedo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .movie-container{
+      width:max-content;
+      margin-left: auto;
+  }
+  .ticket-booking{
+      width: max-content;
+      margin-left: auto;
+  }
+  .feedback-form{
+    position: absolute;
+    top: 0px;
+    height: inherit;
+    left: -186px;
+    width: 32%;
+    z-index: 2;
+    margin-left: auto;
+    margin-top: 9%;
+  }
+  #navbar{
+    padding-left: 116px;
+  }
+  .feedback{
+    margin-top: -124px;
+    margin-left: -73px;
+  }
+  .col-4{
+    margin-top: 29px;
+  }
+  .profile{
+    padding-top: -1px;
+  }
+  #pro-nav{
+    margin-top: -157px;
+  }
+  #dashboard{
+    width: auto;
+  }
+  .stats{
+    padding-left: 16px;
+  }
+  #table-nav{
+    position: fixed;
+    padding-right: 29px;
+    padding-left: 410px;
+    padding-top: 37px;
+  }
+  .seatStructure{
+    width: inherit;
+    margin-left: -284px;
+  }
+  #movie-table{
+    width: min-content;
+  }
+  #movie-table-card{
+    margin-left: 136px;
+  }
+  .card-title{
+    margin-left: 140px;
+  }
+ #card-category{
+    margin-left: 140px;
+  }
+
+#admin-book-nav{
+  padding-left: 130px;
+}
+.retrieve-bookings{
+  margin-left: 5px;
+}
+.retrieve-form{
+  margin-left: -196px;
+  margin-top: 50px;
+}
+#retrieve-card{
+  margin-left: -100px;
+ padding: 25px;
+}
+#upload{
+  padding-left: 133px;
+}
+.upload-font{
+  font-size: 1.25rem;
+}
+.upload-form{
+width: max-content;
+margin-left: -50%;
+}
+.ceat-pick{
+  width: 50%;
+  margin-left: 24%;
+}
+.pick-ceats{
+  background-color: rgb(255, 75, 43);
+color: white;
+width: 48%;
+margin-left: 0%;
+border-radius: 20px;
+}
+#con-select{
+  color: white;
+width: 125%;
+background-color: rgb(255, 75, 43);
+margin-left: 114%;
+border-radius: 20px;
+}
+.alert-message{
+  margin-bottom: 0px;
+background: yellow;
+margin-right: -279px;
+}
+.card{
+  
+    width: 300%;
+
+}
+}
