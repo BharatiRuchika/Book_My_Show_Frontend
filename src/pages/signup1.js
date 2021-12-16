@@ -49,7 +49,7 @@ function Signup(props){
     }
     
    if(admin==true){
-     var res = await axios.post("http://localhost:3000/admin/validateAdmin",{
+     var res = await axios.post("https://bookmyshowback.herokuapp.com/admin/validateAdmin",{
        email,password
      })
      console.log("res",res);
