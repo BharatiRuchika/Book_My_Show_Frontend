@@ -53,7 +53,7 @@ var params = useParams();
                 <input type="text" placeholder="Username" value={username} />
                 <input type="text" placeholder="Movie name" value={moviename} />
                 <input type="text" placeholder="Ticket Amount" value={ticketcost} />
-                <input type="date" placeholder="Pick Booking Date" max={outdate} min={releasedate} value={bookingdate} onChange={(e) => setbookingdate(e.target.value)} />
+                <input type="date" placeholder="Pick Booking Date" value={bookingdate} onChange={(e) => setbookingdate(e.target.value)} />
                 <br />
                 <div style={{display:"flex"}}>
                     <div>
