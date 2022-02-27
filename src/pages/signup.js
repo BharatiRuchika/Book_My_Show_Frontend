@@ -202,7 +202,7 @@ if(res.data.error=="user doesnt exist"){
             </div>
             <div class="overlay-panel overlay-right">
               <h1>Hello, Friend!</h1>
-              <p>Enter your personal details and start journey with us</p>
+              <p>Enter your personal details and start journey with us </p>
               <button class="ghost" id="signUp" onClick={signUp}>Sign Up</button>
             </div>
           </div>
