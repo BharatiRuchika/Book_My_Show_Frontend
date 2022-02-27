@@ -176,9 +176,7 @@ if(res.data.error=="user doesnt exist"){
                  </div> 
                  <h1>Create Account</h1>
                  <div class="social-container">
-                 <a href="#" class="social"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+                 
                  </div>
                  <span>or use your email for registration</span>  
                 
@@ -206,11 +204,7 @@ if(res.data.error=="user doesnt exist"){
          <div class="form-container sign-in-container">
               <form>
                   <h1>Sign in</h1>
-                  <div class="social-container">
-                  <a href="#" class="social"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="social"><i class="fa fa-google-plus"></i></a>
-                    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
-                  </div>
+                 
                   <span>or use your account</span>
                   <input type="email" name="email" placeholder="email" value={state.email} onChange={handleChange}></input>
                   <span style={{color:'red'}}>{state.errors.email}</span>
