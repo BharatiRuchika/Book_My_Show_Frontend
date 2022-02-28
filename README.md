@@ -7,4 +7,4 @@ Live demo
 Deploy Link - ruchikasbookmyshow.netlify.app
 
 Back end source code
-https://github.com/BharatiRuchika/Backend_Kahoot
+https://github.com/BharatiRuchika/Book_My_Show_Back
