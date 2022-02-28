@@ -4,7 +4,7 @@ Authentication using JWT
 Password reset via email
 Built using React, React-Bootstrap, Node, Express, and MongoDB
 Live demo
-ruchikasbookmyshow.netlify.app
+https://ruchikasbookmyshow.netlify.app/
 
 Back end source code
 https://github.com/BharatiRuchika/Book_My_Show_Back
