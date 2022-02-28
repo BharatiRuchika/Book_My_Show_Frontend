@@ -3,6 +3,7 @@ The Administrator is maintaining the user Details ,Movie details,Theater details
 Authentication using JWT
 Password reset via email
 Built using React, React-Bootstrap, Node, Express, and MongoDB
+
 Live demo
 https://ruchikasbookmyshow.netlify.app/
 
